@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Righteous&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +12,7 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
-  font-family: "Righteous", cursive;
+  font-family: "Jost", sans-serif;
   background-color: whitesmoke;
   color: #000;
 }
