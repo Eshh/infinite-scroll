@@ -15,17 +15,18 @@
 body {
   font-family: "Dosis", sans-serif;
   font-family: "Righteous", cursive;
-  background-color: var(--light-color);
+  background-color: whitesmoke;
   color: #000;
 }
 
 h1 {
   text-align: center;
   margin: 2rem 0;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 3px;
 }
 
+/* Loader */
 .loader {
   width: 100vw;
   height: 100vh;
@@ -42,4 +43,22 @@ h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+/* Image Container */
+.img-container {
+  margin: 10px 30%;
+}
+
+.img-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  .img-container {
+    margin: 10px;
+  }
 }
